@@ -1,0 +1,55 @@
+/* Общие стили */
+body {
+  font-family: 'Oxygen', sans-serif;
+  background-color: #f6fbff;
+}
+
+/* Навбар */
+#header-nav {
+  background-color: #f8f8f8;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #555;
+}
+
+/* Стили для мобильного меню */
+#nav-list hr {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#nav-list li a {
+  color: #555;
+  font-size: 1.2em;
+}
+
+#nav-list li a:hover {
+  background-color: #E7E7E7;
+}
+
+/* Контентная часть */
+#menu-title {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.content-box {
+  background-color: #999;
+  color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+}
+
+.content-box h3 {
+  margin-top: 0;
+}
